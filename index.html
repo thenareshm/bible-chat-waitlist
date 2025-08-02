@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Chat - Early Access Waitlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <h1 class="main-heading">
+                        Talk to the Bible.<br>
+                        Hear from the Lord.
+                    </h1>
+                    <p class="subtitle">Be the first to experience the Bible Chat App.</p>
+                    
+                    <!-- Email Form -->
+                    <form id="waitlist-form" class="email-form">
+                        <div class="input-container">
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="Your Email" 
+                                required
+                                autocomplete="email"
+                            >
+                            <button type="submit" class="submit-btn" aria-label="Submit email">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div id="error-message" class="error-message"></div>
+                    </form>
+                </div>
+                
+                <!-- Hero Image -->
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="chat-preview">
+                                <div class="chat-bubble user">What does John 3:16 mean?</div>
+                                <div class="chat-bubble ai">John 3:16 speaks of God's incredible love for humanity. "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life." This verse reveals...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- Scrolling Banner -->
+        <div class="scrolling-banner">
+            <div class="banner-content">
+                <span>CHAT</span>
+                <span>FAITH</span>
+                <span>BUILT WITH LOVE BY NARESH MANDLA</span>
+                <span>CHRISTIAN MUSIC</span>
+                <span>AI-POWERED BIBLE CHAT</span>
+                <span>BUILT WITH LOVE BY NARESH MANDLA</span>
+                <span>CHRISTIAN MUSIC</span>
+                <span>AI-POWERED BIBLE CHAT</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

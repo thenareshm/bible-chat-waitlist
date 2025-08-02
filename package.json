@@ -1,0 +1,31 @@
+{
+  "name": "bible-chat-waitlist",
+  "version": "1.0.0",
+  "description": "Beautiful waitlist landing page for Bible Chat AI app with Google Sheets integration",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "waitlist",
+    "landing-page",
+    "bible",
+    "chat",
+    "ai",
+    "google-sheets",
+    "vanilla-js",
+    "responsive"
+  ],
+  "author": "Naresh Mandla",
+  "license": "MIT",
+  "homepage": "https://github.com/naresh/bible-chat-waitlist",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naresh/bible-chat-waitlist.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
