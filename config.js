@@ -4,7 +4,7 @@
 const CONFIG = {
     // 🚨 IMPORTANT: Replace this with your actual Google Apps Script URL
     // Get this URL after deploying your Google Apps Script (see setup-instructions.md)
-    GOOGLE_APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbx1b4CxmlU6So083bve8SHfqLGZrl4WA5hSAxINHHaeaZ25ofcYHxOUWXIB2wB754w_/exec',
+    GOOGLE_APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbz7rqEuGEYmfnKizWb5i_489A9QKg1AosOxEl9poAcBNMSb1hx4wnuCExWgFEImvXbG/exec',
     
     // Optional: Custom success message
     SUCCESS_MESSAGE: 'Thank you for joining the Bible Chat waitlist!',
